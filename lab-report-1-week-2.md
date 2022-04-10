@@ -5,7 +5,7 @@
 - Go to [Visual Studio Code's website](https://code.visualstudio.com/).
 - Choose and install the version (OSX (for Macs) and Windows (for PCs)) for your computer.
 - After the installation, you should open a window like this:
-- 
+- [Step 1]()
 
 ### Step 2 - Remotely Connecting
 - Go to [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) and look up your course-specific account for CSE15L.
@@ -13,7 +13,7 @@
  on your command but with your username replacing the **zz**.
 - After doing so you will see a message "**Are you sure you want to continue connecting (yes/no/[fingerprint])?**", type yes, press enter, and enter your password.
 - You should see this after finsih doing this step:
-- 
+- [Step 2]()
 ### Step 3 - Trying Some Commands
 - Try running some of the comands on your computer. 
 - Useful commands to try on include:
@@ -24,7 +24,7 @@
   5. ls -a
   6. pwd
 - Here's an image of running ```ls-a``` , which will list all the files including the hidden ones.
-- 
+- [Step 3]()
 
 ### Step 4 - Moving Files with scp
 - Create a file on your computer called WhereAmI.java.
@@ -43,7 +43,7 @@
 - Enter your password again and log into ieng6 with ssh again. 
 - Try use ```ls``` to see if it is in your home directory and run your file on the ieng6 computer with javac and java.
 - You should see this after finsih doing this step:
-- 
+- [Step 4]()
 
 ### Step 5 - Setting an SSH Key
 - To set up the SSH keys on your comupter, enter ```$ ssh-keygen``` on your computer. 
@@ -55,14 +55,14 @@
   
   ```$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys```
 - You are now able to ssh or scp to the server without entering your password like the image below.
-- 
+- [Step 5]()
   
 ### Step 6 - Optimizing Remote Running
 - To make a local edit to WhereAmI.java, you can write a command in quotation after the ssh command. 
 - Also, you may use semicolons to run multiple commands on the same line.
 - For example, you can enter ```$ ssh cs15lsp22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"``` in this case. 
 - You should see:
-- 
+- [Step 6]()
   
 
 
