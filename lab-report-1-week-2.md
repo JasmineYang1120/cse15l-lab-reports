@@ -13,7 +13,7 @@
 - Open a terminal and type ```$ ssh cs15lsp22zz@ieng6.ucsd.edu ``` 
  on your command but with your username replacing the **zz**.
 - After doing so you will see a message "**Are you sure you want to continue connecting (yes/no/[fingerprint])?**", type yes, press enter, and enter your password.
-- You should see this after finsih doing this step:
+- You should see this after finish doing this step:
 
  ![image](https://user-images.githubusercontent.com/103228511/162597774-730f62b4-e4d3-4b5a-bd35-7380c3772c4f.png)
 
@@ -49,7 +49,7 @@
 - Enter your password again and log into ieng6 with ssh again. 
 - Try use ```ls``` to see if it is in your home directory and run your file on the ieng6 computer with javac and java.
 - You should see this after finsih doing this step:
-- 
+
   ![image](https://user-images.githubusercontent.com/103228511/162597871-dec3e723-16c3-4291-816b-88c84c3f1487.png)
 
 ### Step 5 - Setting an SSH Key
@@ -66,8 +66,8 @@
   ![image](https://user-images.githubusercontent.com/103228511/162597881-4b635310-7773-4181-9671-bdd39add15a6.png)
 
 ### Step 6 - Optimizing Remote Running
-- To make a remote running more convenient, you can write a command in quotation after the ssh command. 
-- Also, you may use semicolons to run multiple commands on the same line.
+- To make remote running more convenient, you can write a command in quotation after the ssh command. 
+- Also, you may run multiple commands on the same line using semicolons.
 - For example, you can enter ```$ ssh cs15lsp22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"``` . 
 - You should see:
  
