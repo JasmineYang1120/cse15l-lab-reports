@@ -5,7 +5,8 @@
 - Go to [Visual Studio Code's website](https://code.visualstudio.com/).
 - Choose and install the version (OSX (for Macs) and Windows (for PCs)) for your computer.
 - After the installation, you should open a window like this:
-- [Step 1]()
+
+ ![image](https://user-images.githubusercontent.com/103228511/162597661-8caf1f49-58de-4ad2-9326-116cdbd6ccc0.png)
 
 ### Step 2 - Remotely Connecting
 - Go to [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) and look up your course-specific account for CSE15L.
@@ -13,7 +14,9 @@
  on your command but with your username replacing the **zz**.
 - After doing so you will see a message "**Are you sure you want to continue connecting (yes/no/[fingerprint])?**", type yes, press enter, and enter your password.
 - You should see this after finsih doing this step:
-- [Step 2]()
+
+ ![image](https://user-images.githubusercontent.com/103228511/162597774-730f62b4-e4d3-4b5a-bd35-7380c3772c4f.png)
+
 ### Step 3 - Trying Some Commands
 - Try running some of the comands on your computer. 
 - Useful commands to try on include:
@@ -24,7 +27,7 @@
   5. ls -a
   6. pwd
 - Here's an image of running ```ls-a``` , which will list all the files including the hidden ones.
-- [Step 3]()
+  ![image](https://user-images.githubusercontent.com/103228511/162597808-b6198151-2da4-44a5-96c2-e001de5510a5.png)
 
 ### Step 4 - Moving Files with scp
 - Create a file on your computer called WhereAmI.java.
@@ -39,11 +42,16 @@
       }
     }
 - Run the file using javac and java on your computer.
+- You should see:
+
+  ![image](https://user-images.githubusercontent.com/103228511/162597863-b82d4d9f-b500-4adf-9247-1d5485128388.png)
+
 - In the terminal, run ```scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/``` . Again, replace **zz** with your username. 
 - Enter your password again and log into ieng6 with ssh again. 
 - Try use ```ls``` to see if it is in your home directory and run your file on the ieng6 computer with javac and java.
 - You should see this after finsih doing this step:
-- [Step 4]()
+- 
+  ![image](https://user-images.githubusercontent.com/103228511/162597871-dec3e723-16c3-4291-816b-88c84c3f1487.png)
 
 ### Step 5 - Setting an SSH Key
 - To set up the SSH keys on your comupter, enter ```$ ssh-keygen``` on your computer. 
@@ -55,14 +63,17 @@
   
   ```$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys```
 - You are now able to ssh or scp to the server without entering your password like the image below.
-- [Step 5]()
-  
+ 
+  ![image](https://user-images.githubusercontent.com/103228511/162597881-4b635310-7773-4181-9671-bdd39add15a6.png)
+
 ### Step 6 - Optimizing Remote Running
 - To make a local edit to WhereAmI.java, you can write a command in quotation after the ssh command. 
 - Also, you may use semicolons to run multiple commands on the same line.
 - For example, you can enter ```$ ssh cs15lsp22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"``` in this case. 
 - You should see:
-- [Step 6]()
+ 
+  ![image](https://user-images.githubusercontent.com/103228511/162597899-1b97159e-e8c4-4b7a-89f0-e1f045c8b187.png)
+
   
 
 
