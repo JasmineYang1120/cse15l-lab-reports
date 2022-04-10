@@ -9,7 +9,7 @@
  ![image](https://user-images.githubusercontent.com/103228511/162597661-8caf1f49-58de-4ad2-9326-116cdbd6ccc0.png)
 
 ### Step 2 - Remotely Connecting
-- Go to [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) to look up your course-specific account for CSE15L.
+- Go to [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) to look up your course-specific username for CSE15L.
 - Open a terminal and type ```$ ssh cs15lsp22zz@ieng6.ucsd.edu ``` 
  on your command but with your username replacing the **zz**.
 - After doing so you will see a message "**Are you sure you want to continue connecting (yes/no/[fingerprint])?**", type yes, press enter, and enter your password.
