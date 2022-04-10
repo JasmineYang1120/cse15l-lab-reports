@@ -16,7 +16,6 @@
 - 
 ### Step 3 - Trying Some Commands
 - Try running some of the comands on your computer. 
-- Dicuss and record what you see. 
 - Useful commands to try on include:
   1. cd ~
   2. cd
