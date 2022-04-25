@@ -13,4 +13,16 @@
 - The extra parenthesis in the link2 of test-file-1.md will cause the code to enter an infinite loop, which leads to the result shown above with OutofMemoryError. A break statement is required to end the while loop.  
 ## Code Change #2
 
+- [test-file-2.md]()
+- ```
+   Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+        at java.base/java.util.Arrays.copyOf(Arrays.java:3721)
+        at java.base/java.util.Arrays.copyOf(Arrays.java:3690)
+        at java.base/java.util.ArrayList.grow(ArrayList.java:235)
+        at java.base/java.util.ArrayList.grow(ArrayList.java:242)
+        at java.base/java.util.ArrayList.add(ArrayList.java:452)
+        at java.base/java.util.ArrayList.add(ArrayList.java:465)
+        at MarkdownParse.getLinks(MarkdownParse.java:19)
+        at MarkdownParse.main(MarkdownParse.java:35)
+        ```
 ## Code Change #3
