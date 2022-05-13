@@ -23,3 +23,5 @@
 - 
 
 ## Copy whole directories with scp -r
+- Screenshot of copying the whole markdown-parse directory to my ieng6 account.
+
