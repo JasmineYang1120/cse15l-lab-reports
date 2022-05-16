@@ -20,8 +20,23 @@
 
 ![image](https://user-images.githubusercontent.com/103228511/167319784-3287dd32-718d-43c6-b02e-ebe938dece63.png)
 
-- 
+- Screenshot of running git commands to commit and push a change to Github while logged into the ieng6 account.
+
+<img width="568" alt="擷取 lab 3" src="https://user-images.githubusercontent.com/103228511/168523921-29a3eb98-a63a-40d2-9716-841c94788f6d.PNG">
+
+[The link for the resulting commit](https://github.com/JasmineYang1120/cse15l-lab-reports/commit/ba62b9966a1db51d4d6725b402638d7cd80ab6c7)
 
 ## Copy whole directories with scp -r
 - Screenshot of copying the whole markdown-parse directory to my ieng6 account.
+
+<img width="530" alt="擷取 lab3-1" src="https://user-images.githubusercontent.com/103228511/168523588-07fc0ec2-ffda-4bdc-ad36-633a6914d5a1.PNG">
+
+- Sceenshot of logging into the ieng6 account and complie and run the tests.
+
+<img width="570" alt="擷取 lab3-2" src="https://user-images.githubusercontent.com/103228511/168523554-b3f9250b-bd2e-4a29-b0d8-857972d9d4e7.PNG">
+
+- Screenshot of combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+
+<img width="487" alt="擷取 lab3-3" src="https://user-images.githubusercontent.com/103228511/168523810-1e5f41f8-4e79-4d51-9387-77abb7157cc8.PNG">
+
 
