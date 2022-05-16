@@ -1,10 +1,11 @@
 # CSE 15L Lab Report 3
 ## Streamlining ssh Configuration
-- As a window user, this is my .ssh/config file:
+- To save time from typing the long line to log into ieng6, put an entry in the configuration files in ssh. 
+- Screenshot of my .ssh/config file:
 
 ![image](https://user-images.githubusercontent.com/103228511/167316849-d34eb0a2-5af6-4cb1-aa7a-07cd8738a190.png)
 
-- After doing so I am able to log in the account faster without password.
+- Screenshot of logging into the course specific account with the ssh command.
 
 ![image](https://user-images.githubusercontent.com/103228511/167317056-2d5ecf89-7aab-4650-ac4b-217a55f1aa49.png)
 
@@ -12,6 +13,7 @@
 ![image](https://user-images.githubusercontent.com/103228511/167317296-89126910-a273-4113-b342-045e43495f9f.png)
 
 ## Setup Github Access from ieng6
+- To setup Github access from ieng6, 
 - Screenshot of my SSH public key stored in Github:
 
 ![image](https://user-images.githubusercontent.com/103228511/167319660-c188d376-3cc6-4b84-99e6-7e65d340f418.png)
@@ -27,6 +29,11 @@
 [The link for the resulting commit](https://github.com/JasmineYang1120/cse15l-lab-reports/commit/ba62b9966a1db51d4d6725b402638d7cd80ab6c7)
 
 ## Copy whole directories with scp -r
+- To copy the whole directory, this is what I typed:
+```
+$ scp -r . cs15lsp22@ieng6.ucsd.edu:~/markdown-parse
+```
+- The -r means to work recursively. 
 - Screenshot of copying the whole markdown-parse directory to my ieng6 account.
 
 <img width="530" alt="擷取 lab3-1" src="https://user-images.githubusercontent.com/103228511/168523588-07fc0ec2-ffda-4bdc-ad36-633a6914d5a1.PNG">
