@@ -13,7 +13,7 @@
 ![image](https://user-images.githubusercontent.com/103228511/167317296-89126910-a273-4113-b342-045e43495f9f.png)
 
 ## Setup Github Access from ieng6
-- To setup Github access from ieng6, 
+- To setup Github access from ieng6, I created a key with the course specific account and added new ssh to Github. 
 - Screenshot of my SSH public key stored in Github:
 
 ![image](https://user-images.githubusercontent.com/103228511/167319660-c188d376-3cc6-4b84-99e6-7e65d340f418.png)
