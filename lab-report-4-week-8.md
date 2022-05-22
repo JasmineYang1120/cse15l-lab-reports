@@ -3,15 +3,6 @@
 - [Link to the code my group reviewed in week 7:](https://github.com/kcyy127/markdown-parser)
 
 ## Snippet 1
-```
-`[a link`](url.com)
-
-[another link](`google.com)`
-
-[`cod[e`](google.com)
-
-[`code]`](ucsd.edu)
-```
 
 - Expected output:
 ```
@@ -31,13 +22,6 @@ It did not passed, and here is the error showed in JUnit.
 
 - I don't think that a small code change will be able to make my program work for snippet 1 and all related cases that use inline code with backticks. My code initially did not involved cases like this so it will be a totally new thing to start with which undoubedly will require many changes and add ons to it. 
 ## Snippet 2
-```
-[a [nested link](a.com)](b.com)
-
-[a nested parenthesized url](a.com(()))
-
-[some escaped \[ brackets \]](example.com)
-```
 
 - Expected output:
 ```
@@ -57,32 +41,6 @@ It did not passed, and here is the error showed in JUnit.
 
 - I do not think that a small code change will be able to make my program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets. Even though my code sucessfully printed out the first link, due to the fact that I wrote a break statement inside the if statements, the code will not goes through the rest of the file, and that definetly needs to be changed. 
 ## Snippet 3
-```
-[this title text is really long and takes up more than 
-one line
-
-and has some line breaks](
-    https://www.twitter.com
-)
-
-[this title text is really long and takes up more than 
-one line](
-https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule
-)
-
-
-[this link doesn't have a closing parenthesis](github.com
-
-And there's still some more text after that.
-
-[this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/
-
-
-
-)
-
-And then there's more text
-```
 
 - Expected output:
 ```
