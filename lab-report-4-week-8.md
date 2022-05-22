@@ -12,10 +12,12 @@
 
 [`code]`](ucsd.edu)
 ```
+
 - Expected output:
 ```
 [google.com, google.com, ucsd.edu]
 ```
+
 - Code in MarkdownParseTest.java:
 <img width="385" alt="lab4-1" src="https://user-images.githubusercontent.com/103228511/169680967-636e7638-8ffa-42e9-b07f-df7c641f7d95.PNG">
 
@@ -36,10 +38,12 @@ It did not passed, and here is the error showed in JUnit.
 
 [some escaped \[ brackets \]](example.com)
 ```
+
 - Expected output:
 ```
 [a.com, a.com, example.com]
 ```
+
 - Code in MarkdownParseTest.java:
 <img width="371" alt="lab4-2" src="https://user-images.githubusercontent.com/103228511/169681042-446bb18f-52fe-48d2-8a0a-f8bd6942bdb9.PNG">
 
@@ -79,10 +83,12 @@ And there's still some more text after that.
 
 And then there's more text
 ```
+
 - Expected output:
 ```
 https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule
 ```
+
 - Code in MarkdownParseTest.java:
 <img width="533" alt="lab4-3" src="https://user-images.githubusercontent.com/103228511/169680991-d6a06f3c-3b39-4da2-b6f2-6ca505c86fe2.PNG">
 
